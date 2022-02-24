@@ -1,0 +1,135 @@
+regression results between time and episodic: 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Episodic Memory   R-squared:                       0.486
+Model:                            OLS   Adj. R-squared:                  0.434
+Method:                 Least Squares   F-statistic:                     9.446
+Date:                Mon, 25 Oct 2021   Prob (F-statistic):             0.0118
+Time:                        14:06:26   Log-Likelihood:                -6.7375
+No. Observations:                  12   AIC:                             17.47
+Df Residuals:                      10   BIC:                             18.44
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          2.2648      0.238      9.523      0.000       1.735       2.795
+x1            -0.0287      0.009     -3.073      0.012      -0.050      -0.008
+==============================================================================
+Omnibus:                        1.723   Durbin-Watson:                   2.848
+Prob(Omnibus):                  0.423   Jarque-Bera (JB):                1.010
+Skew:                           0.687   Prob(JB):                        0.603
+Kurtosis:                       2.635   Cond. No.                         45.1
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+regression results between time and semantic: 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Semantic Memory   R-squared:                       0.004
+Model:                            OLS   Adj. R-squared:                 -0.096
+Method:                 Least Squares   F-statistic:                   0.03936
+Date:                Mon, 25 Oct 2021   Prob (F-statistic):              0.847
+Time:                        14:06:26   Log-Likelihood:                 1.7350
+No. Observations:                  12   AIC:                            0.5301
+Df Residuals:                      10   BIC:                             1.500
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.8366      0.117      7.127      0.000       0.575       1.098
+x1             0.0009      0.005      0.198      0.847      -0.009       0.011
+==============================================================================
+Omnibus:                        3.834   Durbin-Watson:                   2.376
+Prob(Omnibus):                  0.147   Jarque-Bera (JB):                2.102
+Skew:                           1.024   Prob(JB):                        0.350
+Kurtosis:                       2.907   Cond. No.                         45.1
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+regression results between time and executive: 
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     Executive Functions   R-squared:                       0.089
+Model:                             OLS   Adj. R-squared:                 -0.003
+Method:                  Least Squares   F-statistic:                    0.9717
+Date:                 Mon, 25 Oct 2021   Prob (F-statistic):              0.348
+Time:                         14:06:26   Log-Likelihood:                -3.2164
+No. Observations:                   12   AIC:                             10.43
+Df Residuals:                       10   BIC:                             11.40
+Df Model:                            1                                         
+Covariance Type:             nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.7127      0.177      4.019      0.002       0.318       1.108
+x1             0.0069      0.007      0.986      0.348      -0.009       0.022
+==============================================================================
+Omnibus:                        1.349   Durbin-Watson:                   2.127
+Prob(Omnibus):                  0.509   Jarque-Bera (JB):                1.034
+Skew:                           0.618   Prob(JB):                        0.596
+Kurtosis:                       2.263   Cond. No.                         45.1
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+regression results between time and attention: 
+                                 OLS Regression Results                                 
+========================================================================================
+Dep. Variable:     Attention & Processing Speed   R-squared:                       0.114
+Model:                                      OLS   Adj. R-squared:                  0.026
+Method:                           Least Squares   F-statistic:                     1.288
+Date:                          Mon, 25 Oct 2021   Prob (F-statistic):              0.283
+Time:                                  14:06:26   Log-Likelihood:                0.91372
+No. Observations:                            12   AIC:                             2.173
+Df Residuals:                                10   BIC:                             3.142
+Df Model:                                     1                                         
+Covariance Type:                      nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          1.3339      0.126     10.612      0.000       1.054       1.614
+x1            -0.0056      0.005     -1.135      0.283      -0.017       0.005
+==============================================================================
+Omnibus:                        3.099   Durbin-Watson:                   2.796
+Prob(Omnibus):                  0.212   Jarque-Bera (JB):                1.213
+Skew:                           0.766   Prob(JB):                        0.545
+Kurtosis:                       3.278   Cond. No.                         45.1
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+regression results between time and visuospatial: 
+                              OLS Regression Results                              
+==================================================================================
+Dep. Variable:     Visuospatial Functions   R-squared:                       0.316
+Model:                                OLS   Adj. R-squared:                  0.248
+Method:                     Least Squares   F-statistic:                     4.621
+Date:                    Mon, 25 Oct 2021   Prob (F-statistic):             0.0571
+Time:                            14:06:26   Log-Likelihood:                0.17687
+No. Observations:                      12   AIC:                             3.646
+Df Residuals:                          10   BIC:                             4.616
+Df Model:                               1                                         
+Covariance Type:                nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.8172      0.134      6.114      0.000       0.519       1.115
+x1            -0.0113      0.005     -2.150      0.057      -0.023       0.000
+==============================================================================
+Omnibus:                        1.005   Durbin-Watson:                   1.802
+Prob(Omnibus):                  0.605   Jarque-Bera (JB):                0.679
+Skew:                          -0.530   Prob(JB):                        0.712
+Kurtosis:                       2.514   Cond. No.                         45.1
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+p_value of permutation test shuffling coefficients of episodic memory scores 1000 times : 0.011
+p_value of permutation test shuffling coefficients of semantic memory scores 1000 times : 0.834
+p_value of permutation test shuffling coefficients of executive memory scores 1000 times : 0.343
+p_value of permutation test shuffling coefficients of attention memory scores 1000 times : 0.296
+p_value of permutation test shuffling coefficients of visuospatial memory scores 1000 times : 0.059
